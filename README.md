@@ -33,7 +33,7 @@ We begin by fine-tuning **DeepSeek-R1-Distill-Llama-8B** on medical QA datasets 
 This stage provides the model with foundational medical knowledge and exposure to diagnostic reasoning tasks.
 
 ### 2. **Retrieval-Augmented Generation (RAG)**
-To reduce hallucination and improve factual grounding, we introduce a **self-ask retrieval module** that allows the model to query external RAG frameworks such as [**MedRAG**](https://aclanthology.org/2024.findings-acl.386/) or [**RAGAS**](https://github.com/explodinggradients/ragas).  
+To reduce hallucination and improve factual grounding, we introduce a **self-ask retrieval module** that allows the model to query external RAG frameworks such as [**MedRAG**]([https://aclanthology.org/2024.findings-acl.386/](https://arxiv.org/html/2502.04413v1)) or [**RAGAS**](https://github.com/explodinggradients/ragas).  
 This step augments the model’s context with relevant medical literature, symptoms, and disease information before generating its reasoning.
 
 ### 3. **Reinforcement Learning (RL)**
